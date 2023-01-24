@@ -1,5 +1,4 @@
 .container {
-    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -14,12 +13,13 @@
 }
 
 .title h1 {
+    margin: 10%;
     font-size: 400%;
 }
 
 .slider-1 {
     max-width: 50%;
-    margin: 5% auto;
+    margin: 7% auto;
     overflow: hidden;
     border: 1px solid #f1f1f1;
     box-shadow: 3px 3px 1px #f1f1f1;
@@ -77,11 +77,11 @@
 }
 
 .add-bot a {
-    font-size: 200%;
+    font-size: 250%;
     -webkit-animation: add-bot-button 1s infinite;
             animation: add-bot-button 1s infinite;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: none;
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
@@ -94,7 +94,7 @@
     transition: all 0.2s;
 }
 
-@-webkit-keyframes add-bot-button {
+@keyframes add-bot-button {
     0% {
         color: #00FFA6;
     }
@@ -105,19 +105,5 @@
 
     100% {
         color: #00FFA6;
-    }
-}
-
-@keyframes add-bot-button {
-    0% {
-        color: rgb(189, 183, 183);
-    }
-
-    50% {
-        color: rgb(180, 179, 179);
-    }
-
-    100% {
-        color: rgb(168, 156, 156);
     }
 }
